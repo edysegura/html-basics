@@ -6,6 +6,7 @@
 </head>
 <body>
     <h1>Range Example</h1>
-    <input type="range" min="0" max="100" value="0">
+    <input type="range" min="0" max="100" value="0" oninput="rangeValue.innerHTML=this.value">
+    <output id="rangeValue">0</output>
 </body>
 </html>
